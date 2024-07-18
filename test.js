@@ -1,6 +1,4 @@
-let newName, newAdmin;
+let text = "Please visit Microsoft and Microsoft!";
+let newText = text.replace(/Microsoft/g, "W3Schools");
 
-newName = 'John';
-newAdmin = newName;
-
-alert(newAdmin)
+console.log(newText)
