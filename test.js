@@ -22,3 +22,9 @@ div.appendChild(p2);
 body.appendChild(p);
 body.appendChild(h3);
 body.appendChild(div);
+
+const btn = document.querySelector(".btn");
+btn.addEventListener("click", (e) => {
+    e.target.style.background = 'blue';
+    e.target.style.color = 'white';
+});
